@@ -1,0 +1,16 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+    {% if np == None  %}
+        <p> Symbol invalid </p>
+    {% elif np == "dict" %}
+        <p> A share of {{lookup_symbol["name"]}}, ({{lookup_symbol["symbol"]}}) costs {{lookup_symbol["price"]}} </p>
+    {% endif %}
+
+{% endblock %}

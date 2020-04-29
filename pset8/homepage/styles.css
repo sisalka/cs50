@@ -1,0 +1,73 @@
+.hlavicka{
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+.hlavicka-cell{
+    font-size: large;
+    color: grey;
+    padding: 8px;
+}
+
+h1{
+    margin-top: 20px;
+    text-align:center;
+    color: grey;
+}
+
+.container {
+  display: flex;
+    margin-top: 40px;
+    max-width: 1500px;
+
+}
+
+.newsletter{
+    padding: 80px 0;
+    color: grey;
+
+}
+
+.row{
+    text-align:center;
+    color: grey;
+    margin-top: 40px;
+    max-width: 1500px;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.paticka{
+   text-align:center;
+   margin: auto;
+}
+
+.text{
+    color: grey;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.obrazok{
+    text-align: center
+}
+
+.cart{
+    width: 1500px;
+    justify-content: space-between;
+}
+
+.cart-sum{
+    justify-content: flex-end;
+}
+
+.panel-footer{
+    justify-content: space-between;
+}
